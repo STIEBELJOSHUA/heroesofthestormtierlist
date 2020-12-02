@@ -1,0 +1,34 @@
+ADVENT OF CODE 2020 WRITEUP<br>
+Posted: 12/2/2020<br>
+Last Updated: 12/2/2020 <br>
+<br>
+This year I decided to do advent of code, which, for those unfamaiar, is a programming challenge the runs every december. It's bascially and advent calender but with coding problems each day. They start off easy <br>
+and get progressively harder. Every day, two problems are released, and for each problem you complete you get a star. 25 days, 50 stars. My goal is to complete both problems each day, for the next 25 days.<br>
+Originaly I was going to use this to learn a new language (Common Lisp), but it december kind of snuck up on me and I didnt have time to start learning a new language for the event. So I decided to go with old reliable and do it in python. Anyways, here we go!<br>
+<br>
+<br>
+--PROBLEM 1--<br>
+Given a list of integers, find the two entries that sum to 2020 and then multiply those two numbers together.<br>
+<br>
+So, the first challenge was pretty easy. This is my first time doing advent of code, so I had no idea what the starting diffucutly would be, but this is probably as easy as a <br>
+problem could get. I'm probably speaking too soon though, becuase this will probably get A LOT harder. Hopefully I will be able to do all 50 challenges, but I'm unsure, yet slightly optimistic. <br>
+Anyways, here is my code for the first problem:<br>
+<br>
+with open ('input.txt','r') as file:<br>
+ data = [int(i) for i in file]<br>
+ <br>
+for num in data:<br>
+ target = 2020-num<br>
+ if target in data:<br>
+ answer1 = num*target<br>
+ print(answer1)<br>
+ break<br>
+<br>
+It's pretty self explanatory. For each number, find what other number adds to it to sum to 2020, then check if that number is in the list. If it is, the multiply them and there ya go.<br>
+My other solution was this, which I'm assuming was also a very popular, yet slightly slower solution. <br>
+<br>
+for num1 in data:<br>
+ for num2 in data:<br>
+ if num1 + num2 == 2020:<br>
+ answer = num1*num2<br>
+print(answer1)
