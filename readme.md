@@ -1,1 +1,1 @@
-Hi! Nothing is here yet because I haven't started working on this. 
+This hosts the files for my personal website: https://nationalshitposting.agency
