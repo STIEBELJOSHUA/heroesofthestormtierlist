@@ -1,0 +1,59 @@
+#bar{
+	color:#39ff14;
+	font-family: 'Cutive Mono', monospace;
+}
+a:link {
+  text-decoration: none;
+  color:#39ff14;
+  font-family: 'Cutive Mono', monospace;
+}
+
+a:visited {
+  color:#39ff14;
+}
+
+
+a:hover {
+  text-decoration: none;
+  color:green;
+  font-family: 'Cutive Mono', monospace;
+}
+
+#cowsay{color:#39ff14;}
+
+#cow{visibility: hidden;}
+
+#nsa{font-size: 11px; }
+
+#about {
+	color:darkgrey;
+	margin: auto;
+	font-size: 16px;
+	width: 750px;
+	font-family: 'Cutive Mono', monospace;
+}
+
+
+
+ /* blinking cursor */
+#blinky {
+  background: lime;
+  margin-left: 5px;
+  -webkit-animation: blink 0.8s infinite;
+  width: 7px;
+  height: 15px;
+  display: inline-block;
+  margin-top:10px;
+  position: relative;
+  top:4px;
+  left:4px;
+}
+
+@-webkit-keyframes blink {
+  0% {background: #222}
+  50% {background: lime}
+  100% {background: #222}
+}
+
+body {background-color: black;}
+

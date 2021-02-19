@@ -1,0 +1,10 @@
+<nav id="bar">
+	<a href="index.html">/home</a>
+	<a href="projects.html">/projects</a>
+	<a href="posts.html">/posts</a>
+	<a href="files.html">/files</a>
+	<a href="webring.html">/webring</a>
+	<a href="links.html">/links</a>
+	<a href="countdown.html">/countdown</a>
+	<a href="faq.html">/faq</a>
+</nav>
